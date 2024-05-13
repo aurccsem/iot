@@ -1,0 +1,7 @@
+ORG 000H ; Define the origin of the program
+MAIN:
+ MOV A, #25H
+ MOV B, #10H
+ ADD A, B
+MOV R0, A
+END
